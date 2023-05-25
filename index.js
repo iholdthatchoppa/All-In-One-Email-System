@@ -10,7 +10,7 @@ app.use(cors());
 
 
 mongoose.connect(
-  "mongodb+srv://EmailSys:EmailSys123@cluster0.4ofpsgs.mongodb.net/usermanager", {
+  "mongodb+srv:/", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
